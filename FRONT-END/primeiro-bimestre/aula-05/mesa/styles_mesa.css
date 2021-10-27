@@ -1,0 +1,28 @@
+.main-title{
+
+    color: rgb(13, 27, 151);
+ }
+
+ .job-title{
+
+    color: white;
+    background-color:rgb(13, 27, 151);
+ }
+
+ body{
+
+color: rgb(51, 51,51);    
+background-color: rgb(223, 215, 185);
+
+ }  
+ #high{
+
+    color: rgb(13, 27, 151);
+    text-decoration: underline;
+ }
+ 
+ .footer{
+
+    background-color:black;
+    color: rgb(223, 215, 185);
+ }
