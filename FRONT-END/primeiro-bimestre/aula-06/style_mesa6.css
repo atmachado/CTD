@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); 
+body{
+    background-color: #131313;
+}
+.h1{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+.h2{
+    color:steelblue;
+    font-family: 'Roboto', sans-serif;
+
+}   
+.media-picture{
+    background-image: url(http://www.revistaestilolivre.com.br/site/wp-content/uploads/2019/05/destaque_avengers.png);
+    background-size: cover;
+        
+    background-position: center;
+    
+    height: 600px;
+}
+.review-score{
+    
+    background-color: #e6bd09;;
+    color: white;
+    padding: 12px;
+    
+}
+.p {
+
+    color: #bdbdbd;
+    font-family: 'Roboto', sans-serif;
+
+}
+.a {
+
+    color: yellow;
+
+}
