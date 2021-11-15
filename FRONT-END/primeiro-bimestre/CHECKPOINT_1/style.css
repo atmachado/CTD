@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Praise&family=Roboto:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: rgb(48, 38, 38);
+    font-family: 'praise';
+    text-align: center;
+    font-size: 55px;
+    
+}
+
+body{
+    
+    background-image: url(https://projetatecnologia.com.br/wp-content/uploads/2020/07/Capixaba-da-Gema-Vit%C3%B3ria-ES-Brasil-16.jpg);
+    background-size: cover;
+    background-repeat: none;
+    
+}
+
+div{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+iframe{   
+    width: 1280px;
+    height: 720px;
+    margin: 0 auto;
+    display: block;
+    padding: 24px;
+    
+    
+}
+header{
+    color:white;
+    font-family: "praise";
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(211, 144, 21);
+        
+}
+p{
+    text-align: center;
+    font-family: 'roboto';
+    color:rgb(48, 38, 38);
+    font-size: 18px;
+    left: 24px; 
+    padding: 12px;
+     
+}
+
+.icon1 img{    
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 47%;
+    top: 1030px; 
+        
+}
+.icon2 img{    
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 51%;
+    top: 1030px;  
+}
+
+h3{
+    text-align: center;
+    font-family:sans-serif;
+    color:rgb(48, 38, 38);
+    font-size: 16px;
+    padding: 12px;
+        
+}
+
+footer{
+    padding: 24px;
+    
+}
+
+
+
+/*
+1-Selecione uma imagem de background da sua cidade e coloque como imagem de fundo do seu body.(CHECK)
+2-Escolha ao menos duas fontes para serem utilizadas no seu site. Use o Google Fonts.(CHECK)
+3-Faça um Header bem bacana com uma cor da sua escolha. Esse header precisa ter de 10 a 20 píxels de padding 
+vertical. Dentro dele estará um título com o nome da sua cidade!(CHECK)
+4-No seu main, coloque um pequeno parágrafo falando da sua cidade. (CHECK)
+Destaque em negrito os pontos mais importantes.(check)
+5-Insira um video do youtube que fala da sua cidade. Pode ser algum festival ou comemoração. 
+Dê uma altura e largura de 1280x720 ao seu vídeo.(check)
+6-Abaixo do vídeo escreva o título: “Curiosidades” e logo abaixo faça uma pequena lista com algumas curiosidades da sua cidade.(check)
+7-Utilize algum site de ícones para conseguir uma imagem do instagram e outra do youtube. 
+Nesses ícones, faça o link com os canais oficiais da sua cidade, se não houver, coloque links do seu gosto.
+8-Aqui um exemplo no qual você pode se inspirar: Clique aqui 
+9-No formulário a seguir, insira seu nome, e a URL o repositório remoto do projeto ATÉ 15/11/2021 até 23:59. Link do Formulário */
+
