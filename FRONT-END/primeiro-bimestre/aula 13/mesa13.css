@@ -1,0 +1,103 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+main{
+    padding: 64px 32px; /* margem da direita e de topo*/
+
+}
+
+button{
+    padding: 64px 32px; /* margem da direita e de topo*/
+
+}
+
+.ball{
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: blue;
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+/*Vocês devem animar algumas coisas com determinada instrução do CSS:*/
+
+/*Animar uma imagem de bola indo da esquerda para a direita com @keyframe, 
+sendo que no começo da transição ela está invisível, e vai aparecendo 
+conforme a animação acontece 
+(animação exemplo está no slide do PG (fantasma))*/
+@keyframes floating {
+          
+    0%{
+        transform:  translate(0,0);
+        opacity: 1;
+    }
+    50%{
+        transform:  translate(1200px,0);    
+    }
+        
+    100%{
+        transform:  translate(0,0);
+    }
+}
+span{
+    width: 50px;
+
+}
+
+/*Alterar o estado de um ícone de sua preferência utilizando transform, 
+é necessário fazer essa animação de uma das formas: 
+utilizando scale() e skew() ou rotate() e translate()*/
+
+.screem{
+    display: block;
+    font-size: 200px;
+    text-align: center;
+    animation-name: screem;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    padding: 32px;
+}
+
+@keyframes screem {
+    
+        
+    0%{
+        transform:scale(1) ;
+        opacity: 1;
+    }
+    50%{
+        transform:scale(2) skew(20deg);
+    
+    }
+    
+    100%{
+        transform:scale(1);
+    }
+}
+
+/*Animar um botão com transition, fazendo com que o background-color 
+dele mude de cor com uma transição suave.*/
+
+main-button {
+    color: white;
+    text-align: center;
+    background-color: blue;
+    padding: 35px;
+    font-size: 22px;
+    border-radius: 12px;
+    transition: .4s ease-in-out;
+    display: block; 
+    margin: 0 auto;
+    
+}
+
+.main-button:hover {
+    
+    background-color: rgb(97, 120, 224); /*funciona parecido com position relative*/
+    transform:scale(2) translate(0px,-10px);
+    
