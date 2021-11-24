@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+    background-color: black;
+}
+
+ul{
+    
+    font-family:"raleway";
+    height: 80px;
+    width: 100%;
+    background-color: rgb(13, 13, 17);
+    list-style: none;
+    display: flex;
+    gap: 24px; 
+    padding: 32px;
+    justify-content: center; 
+    align-items: center; 
+    position: fixed;
+    top: 0;
+    color: white;
+}
+
+ul a{
+
+    color: white;
+    text-decoration: none; 
+    justify-content: center;
+}
+
+.imagens{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 24px; 
+    margin-top: 80px;
+    /*flex-direction: column;*/
+}
