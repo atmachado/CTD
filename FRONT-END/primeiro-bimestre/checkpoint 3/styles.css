@@ -1,0 +1,262 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    scroll-behavior: smooth;
+  }
+  body{
+    background-color: black;
+    background-image:url(https://s2.glbimg.com/vlEGNXA3RSagILJ4GV8bj98C1lQ=/i.glbimg.com/og/ig/infoglobo1/f/original/2017/03/10/65477721_file-_in_this_sept_23_2016_file_photo_the_edge_from_left_bono_and_adam_clayton_of_the_music.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .bodydiscos{
+      
+      background-color: black;
+      background-image:url(https://cdn.mos.cms.futurecdn.net/Rh3UcvMCE6zQrJqgjwihs7-970-80.jpg.webp);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+
+          
+
+  }
+
+  .bodyboy{
+    background-color: black;
+    background-image:url(https://cdn.mos.cms.futurecdn.net/Rh3UcvMCE6zQrJqgjwihs7-970-80.jpg.webp);
+     
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+        
+}
+  .titulo-h1{
+    color: #E51B3E;
+    font-weight: bolder;
+    font-size: 45px;
+    
+}
+.bannerMarcaDagua {
+    width: 50%;
+    filter:opacity(10%);
+    position: relative;
+    top: 35%;
+}
+.col{
+    color: white;
+}
+.socialmidia{
+    width: 20px;
+    margin-left: 10px;
+}
+
+
+  .colun{
+      display: flex;
+  }
+  
+  .container-fluid {
+    background-color: rgb(151, 148, 148);
+  }
+  
+  .navbar {
+    position: fixed;
+    width: 100vw;
+    border: none;
+    padding: 0;
+  }
+  
+  .navbar-brand {
+    font-family: 'arial', cursive;
+    font-style: oblique ;
+    font-size: 43px;
+  }
+  
+  main {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    min-height: 80vh;
+    
+  }
+  
+  main p {
+    padding: 20px 10px;
+    text-align: left;
+  }
+  
+  .form-content {
+    background: url(/img/banner.png);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .form-content form {
+    background: #32b1db;
+    width: 30%;
+    padding: 40px 20px;
+    border-radius: 20px;
+    font-family: 'Source Sans', sans-serif;
+    font-size: 1.6rem;
+  }
+  
+  .form-content form .form-label {
+    font-size: 1.2em;
+  }
+  
+  .form-content form .fields-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .form-content form .btn {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .banner {
+    background-image: url(/img/banner.jpg);
+    width: 100vw;
+    height: 100vh;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    padding-top: 80px;
+  }
+  
+  .banner .detalhes {
+    background-color: rgba(119, 136, 153, 0.653);
+    width: 75vw;
+    height: 75vh;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+  }
+  
+  .banner .detalhes h1 {
+    font-family: 'Grechen Fuemen', cursive;
+    font-size: 50px;
+    color: #2e2259;
+    background-color: rgba(80, 208, 250, 0.735);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 50px;
+  }
+  
+  .banner .detalhes p {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 24px;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 20px;
+    color: #2e2259;
+    background-color: rgba(80, 208, 250, 0.735);
+  }
+  
+  figure{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .figuredisco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    
+}
+.p_descricao{
+    font-family: 'arial', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-display: justify;
+}
+
+
+
+.album{
+    font-family: 'arial', sans-serif;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+  
+  .figure-caption {
+    font-size: 20px;
+  }
+  
+  footer {
+    background: #000;
+    width: 100%;
+    padding: 20px 10px;
+  }
+  
+  footer .student-showcase {
+    color: #b6b6b6;
+  }
+  
+  footer .student-showcase h1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+  
+  .discos {
+    padding-top: 80px;
+  }
+  
+  .figure-caption {
+    color: white;
+    font-size: 20px;
+  }
+  footer {
+    background: #000;
+    width: 100%;
+    padding: 20px 10px;
+      
+  }
+
+  
+  
+  @media (max-width: 1200px) {
+    p {
+      font-size: 16px;
+      font-family: 'Darker Grotesque', sans-serif;
+    }
+  }
+ 
